@@ -1,0 +1,202 @@
+body{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.tabbar{
+    background-color: black;
+    height: 40px;
+    padding: 20px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    font-family: 'Chakra Petch', sans-serif;
+    width: 100vw;
+}
+.icon{
+    color: white;
+    font-size: 50px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menu{
+    color: white;
+    display: flex;
+    gap: 10px;
+    margin-right: 60px;
+}
+.item{
+    font-size: 25px;
+    padding: 5px;
+    width: 180px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.item:hover{
+    background-color: white;
+    color: black;
+}
+.pic1{
+    border-radius: 50%;
+    height: 300px;
+}
+.intro{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.hi{
+    color: white;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    display: flex;
+}
+.blank{
+    height: 200px;
+}
+.if{
+    color: cyan;
+    font-size: 35px;
+    font-family: 'Chakra Petch', sans-serif;
+}
+.start{
+    color: white;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    animation: typing 2s steps(17) infinite;
+    border-right: 3px solid #333;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+}
+.text_intro{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+.pic2{
+    margin-left: 100px;
+    border-radius: 20px;
+}
+.info1{
+    color: white;
+    font-size: 35px;
+}
+.profile{
+    display: flex;
+    gap: 50px;
+}
+.edpic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.edbar{
+    display: flex;
+    justify-content: space-between;
+}
+.edtop,.exptext{
+    color: white;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    margin-left: 60px;
+}
+.edtext{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.edblock{
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: center;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.level{
+    color: white;
+    font-size: 33px;
+    background-color: blue;
+    border-radius: 10px;
+    width: 300px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.explist{
+    margin: 80px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.expbox{
+    background-color: black;
+    width: 100%;
+    height: 390px;
+    border-radius: 20px;
+    display: flex;
+    /* align-items: center; */
+}
+.exppic{
+    height: 350px; 
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.exptextlist{
+    color: white;
+    font-size: 50px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: bold;
+    /* margin-left: 60px; */
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.expbox:hover,.expboxR:hover{
+    background-color: white;
+    .exptextlist{
+        color: black;
+    }
+    transition: background-color 0.3s ease;
+}
+.expslide{
+    height: 350px; 
+    margin: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.expboxR{
+    background-color: black;
+    width: 100%;
+    height: 390px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: end;
+    /* align-items: center; */
+}
+.propic{
+    margin-left: 70px;
+}
+.propic1{
+    border: 4px solid white;
+    border-radius: 30px;
+}
